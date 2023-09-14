@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-aside',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-aside.component.css']
 })
 export class CardAsideComponent {
+ @Input()
+ asideImg:string = ""
 
+ @Input()
+ asideTexto:string = ""
 }

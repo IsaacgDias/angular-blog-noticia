@@ -1,3 +1,19 @@
 .div-secundario {
     display: flex;
+    border: 0px solid #000;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    width: 810px;
 }
+
+.asideBaixo {
+    display: flex;
+    border: 0px solid #000;
+    width: auto;
+    height: 800px;
+    word-wrap: break-word;
+    display: block;
+    float: right;
+}
+
+
