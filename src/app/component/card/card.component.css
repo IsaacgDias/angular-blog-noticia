@@ -1,0 +1,28 @@
+
+
+img {
+    width: 245px;
+    height: 147px;
+}
+
+.texto-principal {
+    font-size: 25px;
+    text-align: left;
+}
+
+
+.texto-secundario {
+    width: 247px;
+    height: 400px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.texto-secundario > h1 {
+    font-size: 24px;
+}
+
+.texto-secundario > p {
+    font-size: 17px;
+}
