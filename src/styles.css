@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+@import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+/* Estilos para telas menores que 768px de largura */
+/* Estilos para telas grandes (768px ou mais) */
